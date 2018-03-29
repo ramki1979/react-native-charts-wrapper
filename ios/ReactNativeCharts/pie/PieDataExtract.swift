@@ -30,6 +30,13 @@ class PieDataExtract : DataExtract {
             pieDataSet.selectionShift = CGFloat(config["selectionShift"].numberValue)
         }
         
+        if config["xValuePosition"].string != nil {
+          pieDataSet.xValuePosition = BridgeUtils.parsePieChartDataSetValuePosition(config["xValuePosition"].stringValue)
+        }
+      
+        if config["yValuePosition"].string != nil {
+          pieDataSet.yValuePosition = BridgeUtils.parsePieChartDataSetValuePosition(config["yValuePosition"].stringValue)
+        }
     }
     
     override func createEntry(_ values: [JSON], index: Int) -> ChartDataEntry {

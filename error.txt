@@ -1,0 +1,72 @@
+Processing 34 files... 
+Spawning 3 workers...
+Sending 12 files to free worker...
+Sending 12 files to free worker...
+Sending 10 files to free worker...
+[37m[41m ERR [49m[39mExample/app/AxisLineChartScreen.js Transformation error
+SyntaxError: Unexpected token, expected "," (83:22)
+    at _class.raise (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:778:15)
+    at _class.unexpected (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2063:16)
+    at _class.expect (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2051:28)
+    at _class.parseBindingList (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2335:14)
+    at _class.parseFunctionParams (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4604:24)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:3653:10)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5468:52)
+    at _class.pushClassMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5418:12)
+    at _class.parseClassMemberWithIsStatic (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4766:12)
+    at _class.parseClassMember (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4708:10)
+[37m[41m ERR [49m[39mExample/app/ScatterChartScreen.js Transformation error
+SyntaxError: Unexpected token, expected "," (73:22)
+    at _class.raise (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:778:15)
+    at _class.unexpected (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2063:16)
+    at _class.expect (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2051:28)
+    at _class.parseBindingList (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2335:14)
+    at _class.parseFunctionParams (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4604:24)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:3653:10)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5468:52)
+    at _class.pushClassMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5418:12)
+    at _class.parseClassMemberWithIsStatic (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4766:12)
+    at _class.parseClassMember (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4708:10)
+[37m[41m ERR [49m[39mExample/app/TimeSeriesLineChartScreen.js Transformation error
+SyntaxError: Unexpected token, expected "," (107:28)
+    at _class.raise (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:778:15)
+    at _class.unexpected (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2063:16)
+    at _class.expect (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2051:28)
+    at _class.parseBindingList (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2335:14)
+    at _class.parseFunctionParams (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4604:24)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:3653:10)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5468:52)
+    at _class.pushClassMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5418:12)
+    at _class.parseClassMemberWithIsStatic (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4766:12)
+    at _class.parseClassMember (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4708:10)
+[37m[41m ERR [49m[39mExample/app/BubbleChartScreen.js Transformation error
+SyntaxError: Unexpected token, expected "," (66:22)
+    at _class.raise (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:778:15)
+    at _class.unexpected (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2063:16)
+    at _class.expect (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2051:28)
+    at _class.parseBindingList (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2335:14)
+    at _class.parseFunctionParams (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4604:24)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:3653:10)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5468:52)
+    at _class.pushClassMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5418:12)
+    at _class.parseClassMemberWithIsStatic (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4766:12)
+    at _class.parseClassMember (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4708:10)
+[37m[41m ERR [49m[39mExample/app/ChartsListScreen.js Transformation error
+SyntaxError: Unexpected token, expected "," (313:19)
+    at _class.raise (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:778:15)
+    at _class.unexpected (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2063:16)
+    at _class.expect (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2051:28)
+    at _class.parseBindingList (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:2335:14)
+    at _class.parseFunctionParams (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4604:24)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:3653:10)
+    at _class.parseMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5468:52)
+    at _class.pushClassMethod (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:5418:12)
+    at _class.parseClassMemberWithIsStatic (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4766:12)
+    at _class.parseClassMember (/usr/lib/node_modules/jscodeshift/node_modules/babylon/lib/index.js:4708:10)
+All done. 
+Results: 
+[31m5 errors
+[39m[33m0 unmodified
+[39m[33m29 skipped
+[39m[32m0 ok
+[39mTime elapsed: 1.588seconds 
