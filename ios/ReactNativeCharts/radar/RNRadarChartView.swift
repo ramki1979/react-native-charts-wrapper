@@ -18,14 +18,6 @@ class RNRadarChartView: RNYAxisChartViewBase {
         return _dataExtract
     }
 
-    override func setYAxis(_ config: NSDictionary) {
-        let json = BridgeUtils.toJson(config)
-        let yAxis = _chart.yAxis
-
-        setCommonAxisConfig(yAxis, config: json)
-        setYAxisConfig(yAxis, config: json)
-    }
-
     override init(frame: CoreGraphics.CGRect) {
 
         self._chart = RadarChartView(frame: frame)
@@ -43,14 +35,10 @@ class RNRadarChartView: RNYAxisChartViewBase {
     
     override func setYAxis(_ config: NSDictionary) {
         let json = BridgeUtils.toJson(config)
-    
-        let yAxis = chart.yAxis;
-    
+        let yAxis = _chart.yAxis
+
         setCommonAxisConfig(yAxis, config: json)
-    
-        if json["position"].string != nil {
-            yAxis.labelPosition = BridgeUtils.parseYAxisLabelPosition(json["position"].stringValue)
-        }
+        setYAxisConfig(yAxis, config: json)
     }
     
 

@@ -33,11 +33,6 @@ class RNPieChartView: RNChartViewBase {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func setDrawEntryLabels(_ enabled: Bool) {
-        chart.drawEntryLabelsEnabled = enabled
-    }
-
-
     func setUsePercentValues(_ enabled: Bool) {
         chart.usePercentValuesEnabled = enabled
     }
