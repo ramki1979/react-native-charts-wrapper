@@ -13,7 +13,7 @@ import SwiftyJSON
 // In react native, because object-c is unaware of swift protocol extension. use baseClass as workaround
 
 open class RNChartViewBase: UIView, ChartViewDelegate {
-    open var onSelect:RCTBubblingEventBlock?
+    open var onChartSelect:RCTBubblingEventBlock?
     
     open var onChange:RCTBubblingEventBlock?
     
@@ -431,19 +431,19 @@ open class RNChartViewBase: UIView, ChartViewDelegate {
     
     @objc public func chartValueSelected(_ chartView: ChartViewBase, entry: ChartDataEntry, highlight: Highlight) {
         
-        if self.onSelect == nil {
+        if self.onChartSelect == nil {
             return
         } else {
-            self.onSelect!(EntryToDictionaryUtils.entryToDictionary(entry))
+            self.onChartSelect!(EntryToDictionaryUtils.entryToDictionary(entry))
             
         }
     }
     
     @objc public func chartValueNothingSelected(_ chartView: ChartViewBase) {
-        if self.onSelect == nil {
+        if self.onChartSelect == nil {
             return
         } else {
-            self.onSelect!(nil)
+            self.onChartSelect!(nil)
             
         }
     }
